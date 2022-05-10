@@ -17,5 +17,13 @@
     "mattpocock.ts-error-translator"
   ],
   "postCreateCommand": "yarn install --frozen-lockfile && yarn run build",
-  "remoteUser": "root"
+  "remoteUser": "root",
+  "codespaces": {
+    "repositories": [
+      {
+        "name": "<ORG_NAME>/*",
+        "permissions": "write-all"
+      }
+    ]
+  }
 }
