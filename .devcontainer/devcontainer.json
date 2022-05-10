@@ -21,7 +21,7 @@
   "codespaces": {
     "repositories": [
       {
-        "name": "<ORG_NAME>/*",
+        "name": "octodemo/*",
         "permissions": "write-all"
       }
     ]
